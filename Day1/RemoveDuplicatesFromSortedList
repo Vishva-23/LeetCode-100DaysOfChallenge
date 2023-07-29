@@ -1,0 +1,40 @@
+Problem Description
+Given the head of a sorted linked list, your task is to delete all duplicates from the list such that each element appears only once. After removing the duplicates, return the linked list with the remaining elements sorted in ascending order.
+
+Example 1:
+Input:
+head = [1, 1, 2]
+Output:
+[1, 2]
+Example 2:
+Input:
+head = [1, 1, 2, 3, 3]
+Output:
+[1, 2, 3]
+Constraints:
+The number of nodes in the linked list is in the range [0, 300].
+The value of each node falls within the range of [-100, 100].
+The linked list is guaranteed to be sorted in ascending order.
+
+
+
+Solution:
+class Solution {
+    public ListNode deleteDuplicates(ListNode node) {
+        if(node==null){
+            return node;
+        }
+        ListNode head=node;
+        while(node.next!=null){
+            if(node.val == node.next.val){
+                node.next=node.next.next;
+            }
+            else{
+                node=node.next;
+            }
+
+        }
+
+        return head;
+    }
+}
