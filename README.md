@@ -2,7 +2,7 @@
 ![LeetCode Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LeetCode_Logo_black_with_text.svg/2560px-LeetCode_Logo_black_with_text.svg.png)
 
 ## Introduction
-Welcome to my 100 Days of LeetCode practice journey! In this repository, I'll document my daily coding progress as I solve algorithmic and data structure problems on LeetCode. The primary goal of this challenge is to improve my problem-solving skills, algorithmic thinking, and familiarity with various programming techniques.
+Welcome to LeetCode practice journey! In this repository, I'll document my daily coding progress as I solve algorithmic and data structure problems on LeetCode. The primary goal of this challenge is to improve my problem-solving skills, algorithmic thinking, and familiarity with various programming techniques.
 
 ## Motivation
 I've embarked on this coding challenge to enhance my abilities as a software developer and to gain confidence in tackling complex coding challenges. By working through a diverse range of problems on LeetCode, I aim to deepen my understanding of data structures, and algorithms, and develop more efficient and elegant solutions.
